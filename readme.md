@@ -8,7 +8,7 @@ This repository includes:
 - A UI to slide the perturbation size (epsilon) and save screenshots.
 
 ## Demo / Screenshots
-```markdown
+
 ### Case 1 — Small perturbation (epsilon = 0.03)
 ![small perturbation](./images/small.jpg)
 ->prediction stays correct since the perturbation size is tiny
@@ -49,7 +49,7 @@ The app requires the pretrained CNN model (`mnist_cnn.pth`). You can either:
 [Download mnist_cnn.pth](https://www.dropbox.com/scl/fi/5n0hpbew4i2oy1dlf989b/mnist_cnn.pth?rlkey=cmk3wuy7487xsoevbnzc9g1ew&st=t6o1qmmt&dl=0)
 
 - **OR train it yourself** automatically by running the app.
-
+```bash
 # 1.1 Create virtual environment (optional but recommended)
 python -m venv pixel
 
