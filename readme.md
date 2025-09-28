@@ -41,6 +41,15 @@ The MNIST handwritten digits dataset is **automatically downloaded** the first t
 - It will be saved in the `./data/` folder.  
 - You **do not need to download it manually**. 
 
+## 🧠 Pretrained Model
+
+The app requires the pretrained CNN model (`mnist_cnn.pth`). You can either:
+
+- **Download it** from Dropbox and place it in the project root:  
+[Download mnist_cnn.pth](https://www.dropbox.com/scl/fi/5n0hpbew4i2oy1dlf989b/mnist_cnn.pth?rlkey=cmk3wuy7487xsoevbnzc9g1ew&st=t6o1qmmt&dl=0)
+
+- **OR train it yourself** automatically by running the app.
+
 # 1.1 Create virtual environment (optional but recommended)
 python -m venv pixel
 
